@@ -21,11 +21,11 @@ body{
 }
 .logo-right{
     font-family: "Raleway", sans-serif;
-    color: #000000;
+    color: var(--span);
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .link{
