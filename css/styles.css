@@ -1,5 +1,8 @@
 :root{
     --back-body:#FFFFFF;
+    --logo-color: #4d5ae5;
+    --span: #2e2f42;
+    --color-menu:#2e2f42;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -7,29 +10,46 @@ body{
     background-color: var(--back-body);
 }
 .logo{
-    color: #4D5AE5;
+    color: var(--logo-color);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
 .logo-right{
+    font-family: "Raleway", sans-serif;
     color: #000000;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 1.16;
+    text-transform: uppercase;
+}
+.link{
+    text-decoration: none;
 }
 .menu{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-weight: 500;
-    color: #2E2F42;
+    color: var(--color-menu);
     letter-spacing: 1.5;
 }
-.menu:hover, .menu:focus{
+.menu:hover{
     color: #404BBF;
+}
+.menu:focus{
+    color: #404BBF;
+}
+.contacts{
+    font-style: normal;
+}
+.list{
+    list-style: none;
 }
 .filter{
     background-color: #F4F4FD;
@@ -69,16 +89,23 @@ a{
 background-color: #4D5AE5;
 color: #FFFFFF;
 cursor: pointer;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 .color-order:hover, .color-order:focus{
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
 }
-h1{
+.title{
     background-color: #2E2F42;
     color: #FFFFFF;
-    letter-spacing: 1.07;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
 }
@@ -91,4 +118,8 @@ h2{
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 1.11;
+}
+.first-section{
+   background-color: var(--color-menu);
+
 }
