@@ -3,6 +3,8 @@
     --logo-color: #4d5ae5;
     --span: #2e2f42;
     --color-menu:#2e2f42;
+    --text-menu: #2e2f42;
+    --num-mail: #434455;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -36,7 +38,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-    color: var(--color-menu);
+    color: var(--text-menu);
     letter-spacing: 1.5;
 }
 .menu:hover{
@@ -47,6 +49,20 @@ body{
 }
 .contacts{
     font-style: normal;
+}
+.numb-mail{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: var(--num-mail);
+    letter-spacing: 1.5;
+}
+.numb-mail:hover{
+    color: #404bbf;
+}
+.numb-mail:focus {
+    color: #404bbf;
 }
 .list{
     list-style: none;
