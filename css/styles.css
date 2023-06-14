@@ -8,6 +8,7 @@
     --first: #2e2f42;
     --buttom: #4d5ae5;
     --back-buttom: #F4F4FD;
+    --text-small: #434455;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -96,8 +97,9 @@ body{
 }
 .pic-small{
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.02em;;
-    color:#434455;
+    color: var(--text-small);
 }
 .end-text{
     color: #F4F4FD;
