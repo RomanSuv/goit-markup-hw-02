@@ -6,6 +6,8 @@
     --text-menu: #2e2f42;
     --num-mail: #434455;
     --first: #2e2f42;
+    --buttom: #4d5ae5;
+    --back-buttom: #F4F4FD;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -69,10 +71,14 @@ body{
     list-style: none;
 }
 .filter{
-    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
-    letter-spacing: 1.5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+    color: var(--buttom);
+    background-color: var(--back-buttom);
 }
 .filter:hover, .filter:focus{
     background-color: #404BBF;
@@ -141,4 +147,7 @@ letter-spacing: 0.04em;
 .first-section{
    background-color: var(--first);
 
+}
+.fourth-section{
+    color:#F4F4FD;
 }
